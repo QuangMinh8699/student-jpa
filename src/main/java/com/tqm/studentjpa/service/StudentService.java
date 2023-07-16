@@ -8,4 +8,7 @@ public interface StudentService {
 
     List<Student> getListStudent();
 
+    void createNewStudent(Student student) throws Exception;
+
+    void deleteStudentById(Long id) throws Exception;
 }
